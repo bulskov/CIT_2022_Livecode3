@@ -11,17 +11,17 @@ namespace Helper
     {
         public string? Name { get; set; }
         public int Age { get; set; }
-        //public char Gender { get; set; }
-        //public int PetId { get; set; }
-
-        public override string ToString()
-        {
-            return $"Name: {Name}, Age: {Age}";
-        }
+        public char Gender { get; set; }
+        public int PetId { get; set; }
 
         //public override string ToString()
         //{
-        //    return $"Name: {Name}, Age: {Age}, Gender: {Gender}, PetId = {PetId}";
+        //    return $"Name: {Name}, Age: {Age}";
         //}
+
+        public override string ToString()
+        {
+            return $"Name: {Name}, Age: {Age}, Gender: {Gender}, PetId = {PetId}";
+        }
     }
 }
