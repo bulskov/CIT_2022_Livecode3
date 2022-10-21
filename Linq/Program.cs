@@ -38,7 +38,7 @@ class Program
         new Person { Name = "Sue", Age = 21,   Gender = 'f', PetId = 2 },
         new Person { Name = "Kim", Age = 21,   Gender = 'f', PetId = 3 },
         new Person { Name = "Ellen", Age = 22, Gender = 'f', PetId = 2 },
-        new Person { Name = "Joe", Age = 23,   Gender = 'm', PetId = 1 },
+        new Person { Name = "Joe", Age = 23,   Gender = 'm' },
     };
 
     private static List<Pet> pets = new List<Pet>
